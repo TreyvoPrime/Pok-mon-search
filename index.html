@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokemon Search</title>
 </head>
+
 <body>
-    <label>Enter Pokemon Name</label>
-    <input id="PokemonName">Search Pokemon</input>
-    <img id="PokemonSprite">Image
-</body> 
+    <h2>Search for a Pokémon</h2>
+    <label for="pokemonName">Enter Pokémon Name:</label>
+    <input type="text" id="pokemonName" placeholder="Example: pikachu">
+    <button id="searchButton">Search</button>
+    <p id="errorMessage"></p>
+    <img id="pokemonSprite" style="display:none;">
+    <script src="script.js"></script>
+</body>
+
 </html>
