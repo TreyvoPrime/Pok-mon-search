@@ -19,10 +19,6 @@ async function fetchData() {
   }
 }
 
-
-// ---- YOUR CODE BELOW ----
-
-// get elements
 let pokemonInput = document.getElementById("pokemonName");
 let button = document.getElementById("searchButton");
 
